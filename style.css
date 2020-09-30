@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    background-image: url("images/bg-pattern-bottom-desktop.svg"),url('images/bg-pattern-top-desktop.svg');
+    background-position: right bottom,left top;
+    background-repeat: no-repeat,no-repeat;
+}
+.container{
+    display: flex;
+}
+
+.para{
+    position: relative;
+    box-sizing: border-box;
+    width:50%;
+    padding:30px 150px;
+}
+h1{
+    font-size: 56px;
+}
+p{
+    font-size:120%;
+}
+.column{
+    position: relative;
+    box-sizing: border-box;
+    width:50%;
+}
+.bar1,.bar2,.bar3{
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: rgba(216,191,216,0.5);
+    font-size: 20px;
+    padding:10px 20px;
+    position: absolute;
+}
+.bar1{
+    top: 87px;
+    left:50px;
+}
+span{
+    margin: 0 20px 0 0;
+}
+.bar2{
+    top: 177px;
+    left:110px;
+}
+
+.bar3{
+    top: 267px;
+    left:170px;
+}
+
+.head img{
+    margin-right: 20px;
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+}
+
+.container2{
+    position: relative;
+    padding:0px 150px;
+    height:400px;
+}
+.card1,.card2,.card3{
+    color:white;
+    border-radius: 20px;
+    background-color: rgba(100,0,100,30);
+    width:250px;
+    padding: 30px;
+}
+.body{
+    margin: 30px 0 0 0;
+}
+.head{
+    display:flex;
+}
+.intro h3,h4,h5{
+    margin:5px 0;
+}
+
+.card1{
+    position:relative;
+}
+.card2{
+    position:relative;
+    top:-200px;
+    left: 400px;
+}
+.card3{
+    position:relative;
+    top:-400px;
+    left: 800px;
+}
